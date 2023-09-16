@@ -14,6 +14,5 @@
 /* * **The fourth element**: a light green background, a font size of 24px, and bold */
 #fourfer{
     background: rgb(128, 255, 128);
-    font-size: 24px;
     font-weight: bold;
 }
