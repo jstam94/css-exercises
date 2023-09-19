@@ -28,17 +28,16 @@ body {
   border-radius: 4px;
 }
 
-.main, body, .deck, .header, .footer{
+body, div{
   display: flex;
 }
 
-.main{
+.main, .deck{
   flex: 1;
 }
 
 .deck{
   flex-wrap: wrap;
-  flex: 1;
   padding: 32px;
   gap: 12px;
 }
@@ -46,22 +45,19 @@ body{
   flex-direction: column;
 }
 
-/* .card{
-  max-width: 33.3333%;
-  max-height: 50%;
-} */
-
-
 /* Styles */
+
+.header, .footer{
+  align-items: center;
+}
+
 .header{
   font-size: 32px;
   font-weight: 900;
   padding: 16px;
-  align-items: center;
 }
 
 .footer{
-  align-items: center;
   justify-content: center;
 }
 
