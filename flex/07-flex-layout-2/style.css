@@ -27,3 +27,54 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+.main, body, .deck, .header, .footer{
+  display: flex;
+}
+
+.main{
+  flex: 1;
+}
+
+.deck{
+  flex-wrap: wrap;
+  flex: 1;
+  padding: 32px;
+  gap: 12px;
+}
+body{
+  flex-direction: column;
+}
+
+/* .card{
+  max-width: 33.3333%;
+  max-height: 50%;
+} */
+
+
+/* Styles */
+.header{
+  font-size: 32px;
+  font-weight: 900;
+  padding: 16px;
+  align-items: center;
+}
+
+.footer{
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar{
+  width: 300px;
+}
+
+a:link{
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.card{
+  max-width: 400px;
+}
