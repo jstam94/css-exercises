@@ -28,6 +28,36 @@ input {
 
 /* Solution */
 
+
+/* Making Elements Flex */
+ul, div, body{
+  display: flex;
+}
+
+/* Additional Flex Styling */
+body, .header, .footer{
+  justify-content: space-between;
+}
+
+.content{
+  align-self: center;
+  align-items: center;
+}
+
+
+/* Additional Styling Padding/Margin Fixes */
+.content, body{
+  flex-direction: column;
+}
+
+.header, .footer{
+  padding: 15px;
+}
+
+.footer{
+  background: #eeeeee;
+}
+
 li{
   list-style-type: none;
 }
@@ -35,40 +65,13 @@ li{
   text-decoration: none;
   color: gray;
  }
-body{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding:
-}
 
-.content{
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  align-items: center;
-}
-
-.header, .footer{
-  display: flex;
-  justify-content: space-between;
-  padding: 15px;
+button{
+  padding: 10px;
 }
 
 ul{
   padding: 0;
   margin: 0;
   gap: 10px;
-}
-
-.left-links, .right-links{
-  display: flex;
-}
-
-.footer{
-  background: #eeeeee;
-}
-
-button{
-  padding: 10px;
 }
